@@ -1,0 +1,29 @@
+.element style {
+}
+.species {
+    float: left;
+    text-align: left;
+
+  }
+  .vl{
+    height: 600px;
+    border-right: 1px solid black;
+    position: abolute;
+    left: 33%;
+}
+.brachypelma{
+    text-align: left;
+    margin-left:-150px;
+   
+}  
+.spider{
+    margin-left: 350px ;
+    margin-right: 1px;
+    position: relative;
+    bottom: 30px;
+}
+ 
+  .textOne{
+    font-size: 20px;
+    margin-left:-150px;
+  }

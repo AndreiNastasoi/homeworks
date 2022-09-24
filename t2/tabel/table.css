@@ -1,0 +1,125 @@
+element.style {
+}
+.tableHead
+{
+    display:  table;
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:3px ;
+    border-color: #f2f4f5;
+    border-spacing:10px;
+    background-color: white;
+}
+.rowOne
+{
+   display:table-row;
+   width:auto;
+   border-radius: 1cm;
+}
+.rowTwo
+{
+   display:flex;
+   justify-content: space-between;
+   width:auto;
+   border-radius: 1cm;
+}
+.rowThree
+{
+   display:flex;
+   justify-content: space-between;
+   width:auto;
+   border-radius: 1cm;
+   padding-top: 0.2cm;
+
+}
+.rowFour
+{
+   display:table-row;
+   width:auto;
+   border-radius: 1cm;
+}
+.cellOne
+{
+    float:left;
+    display:table-column;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    background-color: #cbcf0e;
+    border-radius: 0.1cm;
+}
+.cellTwo
+{
+    float:left;
+    display:table-column;
+    height: 50px;
+    text-align: center;
+    width:295px;
+    text-align: center;
+    background-color: #0ecf95;
+    border-radius: 0.1cm;
+    border
+}
+.cellThree
+{
+    float:left;
+    display:table-column;
+    height:50px;
+    width: 295px;
+    text-align:center;
+    background-color: #0ecf95;
+    border-radius: 0.1cm;
+}
+.cellFour
+{
+    float:left;
+    display:table-column;
+    height:50px;
+    text-align: center;
+    width:145px;
+    background-color:#08027a;
+    border-radius: 0.1cm;
+}
+.cellFive
+{
+    float:left;
+    display:table-column;
+    height:50px;
+    text-align: center;
+    width:145px;
+    background-color: #08027a;
+    border-radius: 0.1cm;
+}
+.cellSix
+{
+    float:left;
+    display:table-column;
+    height:50px;
+    text-align: center;
+    width:145px;
+    background-color: #08027a;
+    border-radius: 0.1cm;
+}
+.cellSeven
+{
+    float:left;
+    display:table-column;
+    height:50px;
+    text-align: center;
+    width:145px;
+    background-color: #08027a;
+    border-radius: 0.1cm;
+}
+.cellEight
+{
+    float:left;
+    display:table-column;
+    height:50px;
+    text-align: center;
+    width:600px;
+    background-color: #cbcf0e;
+    border-radius: 0.1cm;
+}
