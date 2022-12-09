@@ -8,8 +8,8 @@
   .vl{
     height: 600px;
     border-right: 1px solid black;
-    position: abolute;
-    left: 33%;
+    position: relative;
+    left: -70%;
 }
 .brachypelma{
     text-align: left;
@@ -17,13 +17,14 @@
    
 }  
 .spider{
-    margin-left: 350px ;
+    margin-left: 450px ;
     margin-right: 1px;
-    position: relative;
-    bottom: 30px;
+    position: absolute;
+    bottom: 130px;
 }
  
   .textOne{
     font-size: 20px;
     margin-left:-150px;
+    width: 500px;
   }

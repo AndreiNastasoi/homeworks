@@ -41,29 +41,23 @@
             <body>
                 <form>
                     <fieldset>
-                        <legend>Order details</legend>
-                       <label for="product">Product</label> 
+                        <legend>Order list</legend>
+                       <label for="product">Products</label> 
                        <select name="product" id="product">
-                        <option value="iphone">Iphone</option>
-                        <option value="ipad">Ipad</option>
-                        <option value="applewatch">AppleWatch</option>
-                        <option value="macbook">MacBook</option>
-                        <option value="imac">IMac</option>
-                        <option value="airpords">AirPods</option>
-                        <option value="accessories">Accessories</option>
-                        <option value="ipad" selected="selected">Ipad</option>
+                        <option value="watch1">Tissott</option>
+                        <option value="watch2">Seiko</option>
+                        <option value="watch3">Rolex</option>
+                        <option value="watch3" selected="selected">Rolex</option>
                     </select>
                     <br />
-                    <label for="storage">Storage(GB) for your product</label>
-                    <input type="gb" name="storage"/>           
+                    <label for="color">Choose the size</label>
+                    <input type="rgb" name="primecolor"/>           
                     <br />
                     <label for="color">Product color</label>
-                    <select multiple="color" id="color">
-                        <option value="a">Alpine Green</option>
-                        <option value="b">Silver</option>
-                        <option value="c">Gold</option>
-                        <option value="d">Graphite</option>
-                        <option value="e">Sierra Blue</option>
+                    <select multiple="colors" id="colors">
+                        <option value="one">Silver</option>
+                        <option value="two">Black</option>
+                        <option value="three">Gold</option>
                     </select>
                  </fieldset>
                  <fieldset>
@@ -84,7 +78,7 @@
                     <label for="no">No</label>
                  </fieldset>
                  <p>
-                    <textarea name="terms" cols="40" rows="5" readonly="readonly">Apple Terms and Conditions...</textarea>
+                    <textarea name="terms" cols="40" rows="5" readonly="readonly">WatchMania Terms and Conditions...</textarea>
                  </p>
                  <p>
                     <input type="submit" name="submit" value="Send"/>

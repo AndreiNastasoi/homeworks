@@ -1,0 +1,77 @@
+.h1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 700px;
+  color:darkslategray;
+}
+
+.section {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 570px;
+    margin-top: 120px;
+    width: 420px;
+    height: 100px;
+    cursor: pointer;
+    
+}
+    
+  .textarea {
+    border: solid;
+    background-color: slategray;
+    border-color: darkslateblue;
+    border-radius: 2px;
+    height: 180px;
+    width: 800px;
+    margin: 7px;
+    cursor: pointer;
+    
+  }
+  .buttoncomment {
+    display: flex;
+    align-items: center;
+    border-color: darkslategray;
+    background-color: slategray;
+    border-radius: 2px;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+.content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: column;
+  left: 570px;
+  top: 400px;
+}
+.arg {
+  display: flex;
+  background-color: darkslategray;
+  color: white;
+  margin: 15px;
+  width: 400px;
+}
+
+.arg p {
+    text-transform:uppercase;
+    
+}
+
+.delete {
+  margin-left: 230px;
+  margin-top: 15px;
+  background-color: slategray;
+  border: 2px solid white;
+  width: 55px;
+  height: 25px;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color:greenyellow;
+}
+
