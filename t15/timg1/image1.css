@@ -1,0 +1,40 @@
+.col {
+  background-color: rgb(60, 93, 192);
+  color: white;
+}
+
+.image {
+  position: relative;
+  height: 450px;
+  background-size: cover;
+  background-image: url("/imagetechno.jpg");
+}
+
+#text {
+  position: absolute;
+  background-color: rgb(60, 93, 192);
+  color: white;
+  font-size: 1cm;
+  font-weight: 400;
+  text-align: center;
+  height: 60px;
+  width: 540px;
+  right: 150px;
+  top: 405px;
+  cursor: pointer;
+}
+
+.hr1 {
+  border-top: 5px dashed;
+  max-width: 1300px;
+}
+
+.hr2 {
+  border-top: 5px dashed;
+  max-width: 830px;
+}
+
+.hr3 {
+  border-top: 5px dashed;
+  color: rgb(103, 103, 103);
+}

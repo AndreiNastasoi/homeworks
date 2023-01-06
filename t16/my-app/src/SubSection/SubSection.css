@@ -1,0 +1,26 @@
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.sub1 {
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  background-image: url("./react.jpg");
+  background-size: cover;
+}
+
+.sub3 {
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(231, 230, 230);
+}
+.sub2 {
+  border: 1px solid black;
+  width: 500px;
+  height: 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+}

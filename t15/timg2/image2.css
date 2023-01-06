@@ -1,0 +1,30 @@
+.row-image2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imageseiko {
+  background-image: url("/seiko.jpg");
+  background-size: cover;
+  height: 520px;
+  border-radius: 20px;
+}
+
+.imagetissot {
+  background-image: url("/tissot.jpg");
+  background-size: cover;
+  height: 520px;
+  border-radius: 20px;
+}
+
+.imagebreitling {
+  background-image: url("/breitling.jpg");
+  background-size: cover;
+  height: 520px;
+  border-radius: 20px;
+}

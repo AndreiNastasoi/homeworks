@@ -1,0 +1,14 @@
+#navBarContainer {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#nav {
+  color: white;
+  background-color: rgb(7, 86, 189);
+  padding: 12px;
+  width: 200px;
+}
